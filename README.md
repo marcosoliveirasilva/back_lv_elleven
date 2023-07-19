@@ -62,3 +62,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Install the dependencies
+
+1. composer install
+2. Setar o bd no .env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=elleven
+    DB_USERNAME=root
+    DB_PASSWORD=root
+	
+3. php artisan migrate
+4. php artisan db:seed
+6. composer require tymon/jwt-auth
+7. php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+
+
+
+## Start the app
+
+php artisan serve
