@@ -67,6 +67,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 1. composer install
 2. Setar o bd no .env
+    
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
